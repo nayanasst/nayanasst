@@ -1,0 +1,83 @@
+git –version //This command to check the version 
+ mkdir foldername eg: mkdir demo 
+ cd demo  
+ git init 
+ git status
+  vi laksh. txt
+ git add laksh.txt 
+ git commit -m “done laksh”
+  git config
+ git config user.name “ ”  
+ git config user.email “ ” 
+ 
+2
+git branch laksh
+ git checkout laksh
+git checkout master 
+git merge laksh
+git remote add origin "repo"
+git push origin master
+
+3
+git branch laksh
+git status 
+vi sample.txt 
+git add sample.txt 
+git checkout laksh
+git stash 
+git stash list 
+git stash apply
+git stash pop
+
+4
+git clone <repository-url>
+
+5
+git branch feature-branch
+git add laksh. txt
+git commit -m "done rebase"
+git fetch origin
+git checkout feature-branch
+git rebase master feature-branch
+git status
+
+
+6
+git merge feature-branch
+git commit –m “custom commit message laksh”
+
+7
+git checkout master 
+git tag v1.0 
+got tag
+git tag –a v1.1 -m “tag for release” 
+git tag 
+git show v1.0 
+
+8
+vi alpha.txt 
+git add alpha.txt
+git commit –m “1st commit” 
+vi beta.txt 
+git add . 
+ git commit –m “2st commit” 
+vi gamma.txt 
+git add . 
+ git commit –m “3st commit” 
+git status 
+git reflog
+git log
+
+9
+git log
+git show
+
+10
+git log --author="shamsiya parveen " --after="2023-01-01" --before="2023-12-31" 
+
+11
+git log -n 5
+
+12
+Git revert “abc123” 
+Git log –oneline
